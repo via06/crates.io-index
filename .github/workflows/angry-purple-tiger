@@ -1,0 +1,6 @@
+[[package]]
+name = "angry-purple-tiger"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum="49c749eb8b90a5c85a879ac35bba5374ba18ff41d609878d7d37dd2ac0122a3c"
+dependencies = [ "md5",]
