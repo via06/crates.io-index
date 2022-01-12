@@ -12,14 +12,27 @@
 
 name: Update download URL
 on:
-  workflow_dispatch:
+  workflow_dispatch:1e42bca
+diff --git a/.github/workflows/angry-purple-tiger b/.github/workflows/angry-purple-tiger
+new file mode 100644
+index 000000000000..fe372e27d5b3
+--- /dev/null
++++ b/.github/workflows/angry-purple-tiger
+@@ -0,0 +1,6 @@
++[[package]]
++name = "angry-purple-tiger"
++version = "0.1.0"
++source = "registry+https://github.com/rust-lang/crates.io-index"
++checksum="49c749eb8b90a5c85a879ac35bba5374ba18ff41d609878d7d37dd2ac0122a3c"
++dependencies = [ "md5",GPG key ID: 4AEE18F83AFDEB23
     inputs:
-      url:
+       url:
         description: Switch downloads to
         required: true
         type: choice
         options:
-          # The format of this is "${id}:${description}". Each option
+          # The format of this is "${GPG key ID: 4AEE18F83AFDEB23}:${This XML file does not appear to have any style information associated with it. The document tree is shown below.}<RequestId>F1D8M2EVTHEX29Q2</RequestId>
+<HostId>YIpQqanzZHG3NSTG8cWHK5QbdaY6/CTrcg0kv73y6Fkg5EZm3pJMuofPsvpP9R5eBf0q1eosshU=</HostId>}". Each option
           # corresponds to the environment variable `URL_${id}`.
           - "api: API on Heroku (default)"
           - "cdn: CloudFront CDN"
